@@ -1,3 +1,5 @@
+/* ----- COLORS AND FONT STYLES ----- */
+
 .navigation,
 .hero,
 .footer {
@@ -16,7 +18,7 @@
 }
 
 .hero-text p,
-.nav-links a {
+.navigation a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -37,7 +39,117 @@
     color: #1F2937
 }
 
-.cta div,
-.cta button {
+.cta div {
     background-color: #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+/* ----- WHOLE CHANGES ----- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+/* ----- NAVIGATION ----- */
+
+nav {
+    display: flex;
+    height: 50px;
+    padding: 0 100px;
+}
+
+.logo-text {
+    display: flex;
+    align-self: center;
+}
+
+.navigation ul {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----- HERO ----- */
+
+.hero {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.hero article {
+    display: flex;
+    height: 250px;
+    gap: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.hero-text h1 {
+    margin: 0;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #8a8a8a;
+    height: 100%;
+}
+
+/* ----- CONTENT ----- */
+
+.content {
+    padding: 0 100px;
+}
+
+/* ----- TESTIMONIAL ----- */
+
+.testimonial {
+    padding: 0 100px;
+}
+
+/* ----- CALL-TO-ACTION ----- */
+
+.cta {
+    padding: 0 100px;
+}
+
+/* ----- FOOTER ----- */
+
+.footer {
+    padding: 0 100px;
 }
