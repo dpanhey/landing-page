@@ -39,14 +39,13 @@
     color: #1F2937
 }
 
-.cta div {
+.cta-container {
     background-color: #3882F6;
 }
 
 button {
     background-color: #3882F6;
     color: white;
-    border: 0;
     font-weight: bold;
 }
 
@@ -65,7 +64,10 @@ body {
 
 button {
     width: 120px;
+    min-width: 100px;
     height: 30px;
+    min-height: 20px;
+    border: 0;
     border-radius: 12px;
 }
 
@@ -197,8 +199,35 @@ a {
     padding: 100px 150px;
 }
 
+.cta-container {
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.cta-container p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-container div p {
+    margin: 0;
+}
+
+.cta-container button {
+    border: 2px solid white;
+}
+
 /* ----- FOOTER ----- */
 
 .footer {
     padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: white;
 }
