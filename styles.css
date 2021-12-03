@@ -1,0 +1,43 @@
+.navigation,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text p,
+.nav-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.testimonial q {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.cta div,
+.cta button {
+    background-color: #3882F6;
+}
