@@ -52,6 +52,10 @@ button {
 
 /* ----- WHOLE CHANGES ----- */
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -174,6 +178,17 @@ a {
 
 .testimonial {
     padding: 100px 200px;
+}
+
+.testimonial div {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial p {
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* ----- CALL-TO-ACTION ----- */
